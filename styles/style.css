@@ -1,0 +1,438 @@
+/* https://julia.na/ */
+:root{
+    /*colores*/
+    --bitcoin-orange: #f7931a;
+    --soft-orange: #FFE9D5;
+    --secondary-blue: #2154e0;
+    --soft-blue: #E7F5FF;
+    --one-black: #201E1C;
+    --black: #201E1C;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #fff;
+    --warm-black: #282623;
+
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    height: 7rem;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--off-white);
+}
+
+header .headerleft {
+    display:inline-flex;
+    align-items: center;
+    width: 50rem;
+    line-height: 45px;
+    font-size: 3rem;
+    margin: 0;
+}
+
+header .headerleft a{
+    display:inline-flex;    
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: 7rem;
+    left: 0;
+	right: 0;
+	top: 0;
+    background-color: #000;
+    color: var(--bitcoin-orange);
+    margin: 0;
+
+}
+
+header .headerleft span{
+    width: 30rem;
+}
+
+header .headerright{
+    display:inline-flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+header .headerright .headerRightMenu{
+    list-style: none;
+    width: auto;
+    height: auto !important;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row; 
+    font-weight: bold;   
+}
+
+header .headerright .headerRightMenu li{
+    margin: 20px;
+}
+
+header .headerright .headerRightMenu a:hover{
+    color: #2154e0;
+}
+
+header .headerright .headerRightMenu li a {
+    text-decoration: none;
+    color: #282623;
+}
+header div img{
+    width: auto;
+    height: 5rem;
+}
+    
+
+/*///////////////     final del header    /////////////////////*/
+
+
+.bigpicture1 {
+    width: 100%;
+    height: 100rem;
+    top: 0;
+    background-image: url("/src/img/FotoGrandeOptimizada.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.bigpicture1 div {
+    padding: 1rem;
+    margin-top: 7rem;
+    margin-left: 0%;
+    text-align: center;
+}
+
+.bigpicture1 div h2 {
+    font-weight: normal;
+    color: var(--secondary-blue);   
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.bigpicture1 div p {
+    font-weight: normal;
+    color: #da160f;   
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.biographi {
+    width: 100%;
+    height: auto;
+}
+
+.biographi div {
+    text-align: center;
+    padding: 10rem 30rem;
+    margin: 0 auto;
+}
+
+.biographi div h2{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 4rem;
+}
+
+.biographi div p {
+    padding-top: 4rem;
+    font-family: 'Playfair Display', serif;;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2;
+    text-rendering: optimizeLegibility;
+}
+/*
+.modal-container .active{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0%;
+    background-color: rgba(0,0,0,0.80);
+    z-index: 0;
+}
+
+.modal-container::after {
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0%;
+}
+*/
+/*Comienzo con los titulos y big picture 2*/
+.bigpicture2 {
+    width: 100%;
+    height: 60rem;
+    background-color: black;
+    text-align: center;
+}
+
+.bigpicture2 .picturesvideos {
+    padding: 10px;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bigpicture2 h2 {
+    color: #fff;
+    padding-top: 5rem;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 4.8rem;
+}
+
+.bigpicture2 .picturesvideos .images {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8rem;
+    padding-top: 10rem;
+    height: 50%;
+    width: 90%;
+}
+
+.bigpicture2 .picturesvideos .images div img{
+    height: 25rem;
+    width: auto;
+}
+
+.bigpicture2 .picturesvideos .images div p {
+    font-size: 10px;
+    color: #E7F5FF;
+    padding: 2rem;
+}
+
+
+/*contact styles*/
+.contact {
+        width: 100%;
+        margin-top: 5rem;
+        /*height: 100rem;*/
+        text-align: center;
+        position: relative;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.contact .center {
+        text-align: center;
+        max-width: 1300px;
+        padding: 2rem 1.5rem;
+        margin: 0 auto;
+        position: relative;
+}
+
+.contact .center h2 {
+    font-size : 48px;
+    font-family:sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.contact .center hr {
+    margin-bottom: 1.5rem;
+}
+
+
+.contact .center p {
+    display: flex;
+    padding-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.contact .center p a{
+    /*font-family: inherit;*/
+    color: #282623;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 2 rem;
+    text-rendering: optimizeLegibility;
+}
+
+.contact .center p .icon_envelope {
+    content: url(../src/icons/email_envelop3.jpg);
+    height: 15px;
+    width: auto;
+}
+
+.social_media {
+    padding: 15px 15px;
+    width: 80rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.social_media .twitter_linkedin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 30rem;
+}
+
+.social_media .facebook_instagram {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 30rem;
+}
+
+/*icons style*/
+.twitter_icon {
+    content: url(../src/icons/twitter.png);
+    height: 30px;
+    width: auto;
+    margin: 15px;
+}
+
+.facebook_icon {
+    content: url(../src/icons/facebook.png);
+    height: 30px;
+    width: auto;
+    margin: 15px;
+}
+
+.instagram_icon {
+    content: url(../src/icons/instagram.png);
+    height: 30px;
+    width: auto;
+    margin: 15px;
+}
+
+.linkedin_icon {
+    content: url(../src/icons/linkedIn.png);
+    height: 30px;
+    width: auto;
+    margin: 15px;
+}
+/* icons_style ends*/
+
+/*tittles style*/
+    .work {
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .work_tittle {
+        margin-bottom: 5rem;
+    }
+
+    .work_tittle h1 {
+        color: var(--black);
+        padding-top: 5rem;
+        font-family: 'Julius Sans One', sans-serif;
+        text-shadow: var(--black);
+        font-size: 4.8rem;
+    }
+
+    .work_tittle p {
+        padding-top: 4rem;
+        font-family: 'Playfair Display', serif;;
+        font-weight: normal;
+        font-size: 1.8rem;
+        line-height: 2;
+        text-rendering: optimizeLegibility;
+    }
+
+    .courses_tittles {
+        width: auto;
+    }
+
+    .courses_tittles iframe {
+        height: 30rem;;
+    }
+
+    /*.courses_first_column{
+        margin: 10px;
+    }
+
+    .courses_second_column{
+        margin: 10px;
+    }
+
+    .courses_third_column {
+        margin: 10px;
+    }
+
+    .courses_fourth_column {
+        margin: 10px;
+    }*/
+/*tittles style ends*/
+
+/*social media style*/
+
+.twitter_linkedin div {
+    width: 20rem;
+    margin: 15px 15px;
+}
+
+.facebook_instagram div {
+    width: 20rem;
+    margin: 10px 10px;
+}
+
+.twitter_linkedin div {
+    align-self: center;
+}
+
+.facebook_instagram div {
+    align-self: center;
+}
+
+.social_media div div h1 {
+    font-size: 15px;
+}
+
+
+/*contact styles ends*/
+
+/*Footers Styles*/
+footer {
+    height: 5rem;
+    background-color: #dfdfdf;
+    text-align: center;
+    position: relative;
+    padding: 40px 15px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Footer Style Ends*/
