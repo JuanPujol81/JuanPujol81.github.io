@@ -24,8 +24,8 @@
 html{
     font-size: 62.5%;
     font-family: 'Julius Sans One', sans-serif;
+    overflow-x: hidden;
 }
-
 
 header{
     display: flex;
@@ -97,9 +97,14 @@ header .headerright .headerRightMenu li a {
     text-decoration: none;
     color: #282623;
 }
-header div img{
-    width: auto;
-    height: 5rem;
+
+
+.header--flag{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    margin-top: 2px;
+    margin-left: calc(50% - 50px);
 }
     
 
@@ -107,6 +112,8 @@ header div img{
 
 
 .bigpicture1 {
+    display: flex;
+    align-items: top;
     width: 100%;
     height: 100rem;
     top: 0;
@@ -138,22 +145,27 @@ header div img{
 
 
 .biographi {
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 
 .biographi div {
     text-align: center;
-    padding: 10rem 30rem;
-    margin: 0 auto;
+    width: 90%;
 }
 
 .biographi div h2{
     font-family: 'Julius Sans One', sans-serif;
     font-size: 4rem;
+    text-align: center;
 }
 
 .biographi div p {
+    text-align: center;
     padding-top: 4rem;
     font-family: 'Playfair Display', serif;;
     font-weight: normal;
@@ -217,7 +229,7 @@ header div img{
 }
 
 .bigpicture2 .picturesvideos .images div img{
-    height: 25rem;
+    height: 20rem;
     width: auto;
 }
 
@@ -373,7 +385,7 @@ header div img{
     }
 
     .courses_tittles iframe {
-        height: 30rem;;
+        height: 25rem;;
     }
 
     /*.courses_first_column{
