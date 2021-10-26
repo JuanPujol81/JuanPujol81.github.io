@@ -59,7 +59,7 @@ header .headerleft a {
 }
 
 header .headerleft span {
-    font-size: 15px;
+    font-size: 8px;
 }
 
 header .headerright {
@@ -72,7 +72,7 @@ header .headerright .headerRightMenu{
     list-style: none;
     width: 100%;
     line-height: 5rem;
-    font-size: 11px;
+    font-size: 8px;
     display: flex;
     justify-content: flex-end;
     flex-direction: row; 
@@ -194,7 +194,7 @@ header .headerright .headerRightMenu li a:hover {
 }
 
 .bigpicture2 .picturesvideos .images div img{
-    height: 9rem;
+    height: 5rem;
     width: auto;
 }
 
@@ -423,7 +423,7 @@ footer {
     background-color: #dfdfdf;
     text-align: center;
     position: relative;
-    padding: 40px 15px;
+    padding-top: 1.5rem;
 }
 
 footer p {
