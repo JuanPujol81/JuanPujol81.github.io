@@ -48,7 +48,7 @@ header .headerright .headerRightMenu li a {
     display: flex;
     align-items: top;
     justify-content: center;
-    width: 800px;
+    width: 100%;
     margin: 0;
     max-width: 800px;
     height: 60rem;
@@ -59,8 +59,9 @@ header .headerright .headerRightMenu li a {
 }
 
 .bigpicture1 div {
-   width: 700px;
+   width: 80%;
    height: 70px;
+   
 }
 
 .bigpicture1 div h2 {

@@ -32,7 +32,7 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    min-width: 320px;
+    min-width: 1000px;
     height: 7rem;
     text-align: center;
     position: fixed;
@@ -56,6 +56,7 @@ header .headerleft a{
     justify-content: center;
     width: 12rem;
     height: 7rem;
+    font-size: 40px;
     left: 0;
 	right: 0;
 	top: 0;
@@ -67,6 +68,7 @@ header .headerleft a{
 
 header .headerleft span{
     width: 30rem;
+    font-size: 25px;
 }
 
 header .headerright{
@@ -114,17 +116,17 @@ header .headerright .headerRightMenu li a {
 .bigpicture1 {
     display: flex;
     align-items: top;
-    width: 100%;
-    height: 100rem;
+    width: 100vw;
+    height: 750px;
     top: 0;
     background-image: url("/src/img/FotoGrandeOptimizada.jpg");
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 .bigpicture1 div {
     padding: 1rem;
-    margin-top: 7rem;
+    margin-top: 12rem;
     margin-left: 0%;
     text-align: center;
 }
@@ -147,7 +149,7 @@ header .headerright .headerRightMenu li a {
 .biographi {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: auto;
     margin-top: 6rem;
     margin-bottom: 6rem;
@@ -186,7 +188,6 @@ header .headerright .headerRightMenu li a {
     background-color: rgba(0,0,0,0.80);
     z-index: 0;
 }
-
 .modal-container::after {
     content: '';
     position: fixed;
@@ -198,7 +199,7 @@ header .headerright .headerRightMenu li a {
 */
 /*Comienzo con los titulos y big picture 2*/
 .bigpicture2 {
-    width: 100%;
+    width: 100vw;
     height: 60rem;
     background-color: black;
     text-align: center;
@@ -242,7 +243,7 @@ header .headerright .headerRightMenu li a {
 
 /*contact styles*/
 .contact {
-        width: 100%;
+        width: 100vw;
         margin-top: 5rem;
         /*height: 100rem;*/
         text-align: center;
@@ -356,7 +357,7 @@ header .headerright .headerRightMenu li a {
     .work {
         text-align: center;
         height: auto;
-        width: 100%;
+        width: 100vw;
     }
 
     .work_tittle {
@@ -391,15 +392,12 @@ header .headerright .headerRightMenu li a {
     /*.courses_first_column{
         margin: 10px;
     }
-
     .courses_second_column{
         margin: 10px;
     }
-
     .courses_third_column {
         margin: 10px;
     }
-
     .courses_fourth_column {
         margin: 10px;
     }*/
@@ -435,6 +433,7 @@ header .headerright .headerRightMenu li a {
 /*Footers Styles*/
 footer {
     height: 5rem;
+    width: 100vw;
     background-color: #dfdfdf;
     text-align: center;
     position: relative;
