@@ -27,15 +27,12 @@ html{
     overflow-x: hidden;
 }
 
-body {
-    max-width: 650px;
-}
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
     margin: 0;
     padding: 0;
     height: 5rem;
@@ -98,7 +95,7 @@ header .headerright .headerRightMenu li a:hover {
     display: flex;
     align-items: top;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: 45rem;
     top: 0;
     background-image: url("/src/img/FotoGrandeOptimizada.jpg");
@@ -137,7 +134,7 @@ header .headerright .headerRightMenu li a:hover {
 .biographi {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -167,7 +164,7 @@ header .headerright .headerRightMenu li a:hover {
 
 /*Galery start*/
 .bigpicture2 {
-    width: 100%;
+    width: 100vw;
     height: 30rem;
     background-color: black;
     text-align: center;
@@ -212,7 +209,7 @@ header .headerright .headerRightMenu li a:hover {
 .work {
     text-align: center;
     height: auto;
-    width: 100%;
+    width: 100vw;
 }
 
 .work_tittle {
@@ -249,7 +246,7 @@ header .headerright .headerRightMenu li a:hover {
 
 /*Contact starts*/
 .contact {
-    width: 100%;
+    width: 100vw;
     margin-top: 2rem;
     text-align: center;
     position: relative;
@@ -261,7 +258,7 @@ header .headerright .headerRightMenu li a:hover {
 
 .contact .center {
     text-align: center;
-    max-width: 650px;
+    max-width: 700px;
     padding: 1rem 0.5rem;
     margin: 0 auto;
     position: relative;
@@ -421,6 +418,7 @@ margin: 15px;
 
 /*Footers Styles*/
 footer {
+    width: 100vw;
     height: 5rem;
     background-color: #dfdfdf;
     text-align: center;
