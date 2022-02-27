@@ -4,6 +4,10 @@
         enlaces.classList.toggle('activado')
     })
 
+    ham.addEventListener('touch', () => {
+        enlaces.classList.toggle('activado')
+    })
+
     ham.addEventListener('touchmove', () => {
         enlaces.classList.toggle('desactivado')
     })

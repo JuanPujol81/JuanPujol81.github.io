@@ -381,7 +381,7 @@ span {
     border-radius: 2px;
 }
 
-@media (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
     .main {
         display: flex;
         flex-direction: column;
@@ -417,7 +417,7 @@ span {
     }
 }
 
-@media (max-width: 860px) {
+@media screen and (max-width: 860px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -425,7 +425,7 @@ span {
     }
 }
 
-@media (max-width: 780px) {
+@media screen and (max-width: 780px) {
 
     body{
         overflow-x: hidden;
@@ -490,7 +490,7 @@ span {
     }
 }
 
-@media (max-width: 520px) {
+@media screen and (max-width: 520px) {
     .main {
         display: flex;
         flex-direction: column;
@@ -507,7 +507,7 @@ span {
 }
 
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
     .main img {
         display: none;
     }
