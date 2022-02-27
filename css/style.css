@@ -181,6 +181,9 @@ span {
     width: 280px;
     background-color: #101e4b;
     margin: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-image {
@@ -188,6 +191,25 @@ span {
     height: 150px;
     background-image: url('../assets/img/project-image-code.jpg');
     background-size: cover;
+}
+
+.notes-card{
+    background-image: url(../assets/img/notes.jpg);
+    background-size: cover;
+}
+
+.weather-card {
+    background-image: url(../assets/img/weather_image.jpg);
+    background-size: cover;
+}
+
+.description {
+    margin: 10px 20px;
+    height: 40%;
+}
+
+.description p {
+    text-justify: newspaper;
 }
 
 .card-title {
@@ -208,6 +230,7 @@ span {
 .card-project-links a {
     color: var(--letters-color);
     text-decoration: none;
+    margin: 0 10px;
 }
 
 .card-project-links i {
@@ -337,3 +360,47 @@ span {
     color: var(--letters-color);
 }
 
+@media (max-width: 1100px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main img {
+        width: 200px;
+        height: 200px;
+        border: 7px solid var(--details-color);
+        margin: 30px;
+    }
+}
+
+@media (max-width: 520px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-content h1 {
+        font-size: 30px;
+    }
+
+    .main img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .main img {
+        display: none;
+    }
+}
+
+
+/*Burger menu*/

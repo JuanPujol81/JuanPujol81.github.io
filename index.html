@@ -10,16 +10,16 @@
 </head>
 <body>
     <div class="wrapper">
-        <header>
+        <header class="header">
             <nav class="nav-bar">
                 <div class="brand">
                     <h2>J<span>R</span></h2>
                 </div>
-                <ul class="menu">
-                    <li><a class="active"  href="#">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact-section">Contact</a></li>
+                <ul class="menu nav__ul">
+                    <li class="nav__item"><a class="active nav__link"  href="#">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#about">About Me</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#contact-section">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -55,49 +55,45 @@
         
             <div class="container">
                 <div class="card">
-                    <div class="card-image"></div>
-                    <div class="card-title">
-                        <h2>Project Description</h2>
+                    <div class="card-image weather-card"></div>
+                    <div class="description">
+                        <p>Weather app integrated with a fun game, made with Nodejs.</p>
                     </div>
                     <div class="card-project-links">
-                        <a href="">
+                        <a href="https://github.com/JuanPujol81/WeatherApp.git">
                             <i class="fa-brands fa-github"></i>
                         </a>
-                        <a href="">
+                        <a href="https://raul-weather-app.herokuapp.com/">
                             <i class="fa-solid fa-globe"></i>
-                        </a>
-                        <a href="">
-                            <i class="fa-solid fa-code"></i>
                         </a>
                     </div>
                     <button class="project-details buttons-style">
                         <a href="">Project Details</a>
                     </button>
                 </div>
+
                 <div class="card">
-                    <div class="card-image"></div>
-                    <div class="card-title">
-                        <h2>Project Description</h2>
+                    <div class="card-image notes-card"></div>
+                    <div class="description">
+                        <p>Basic notes app developed with Nodejs, HTML and CSS.</p>
                     </div>
                     <div class="card-project-links">
-                        <a href="">
+                        <a href="https://github.com/JuanPujol81/Note-app">
                             <i class="fa-brands fa-github"></i>
                         </a>
-                        <a href="">
+                        <a href="#portfolio">
                             <i class="fa-solid fa-globe"></i>
-                        </a>
-                        <a href="">
-                            <i class="fa-solid fa-code"></i>
                         </a>
                     </div>
                     <button class="project-details buttons-style">
                         <a href="">Project Details</a>
                     </button>
                 </div>
+
                 <div class="card">
                     <div class="card-image"></div>
                     <div class="card-title">
-                        <h2>Project Description</h2>
+                        <p>Project Description</p>
                     </div>
                     <div class="card-project-links">
                         <a href="">
@@ -105,9 +101,6 @@
                         </a>
                         <a href="">
                             <i class="fa-solid fa-globe"></i>
-                        </a>
-                        <a href="">
-                            <i class="fa-solid fa-code"></i>
                         </a>
                     </div>
                     <button class="project-details buttons-style">
