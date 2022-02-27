@@ -360,6 +360,27 @@ span {
     color: var(--letters-color);
 }
 
+
+/*Burger menu*/
+
+.ham {
+    display: none;
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    padding: 0%;
+    background-color: var(--background-color);
+}
+
+.ham span {
+    display: block;
+    background-color: var(--letters-color);
+    height: 3px;
+    width: 28px;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
 @media (max-width: 1100px) {
     .main {
         display: flex;
@@ -390,6 +411,10 @@ span {
         border: 7px solid var(--details-color);
         margin: 30px;
     }
+
+    .menu {
+        width: 60%;
+    }
 }
 
 @media (max-width: 860px) {
@@ -400,7 +425,49 @@ span {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 780px) {
+
+    body{
+        overflow-x: hidden;
+        width: 100vw;
+    }
+
+    .ham {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 25px;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .menu li .active {
+        color: var(--letters-color);
+    }
+
+    .menu {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 92vh;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: none;
+        opacity: 0;
+    }
+
+    .menu li {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+
     .portfolio-headings h2 {
         font-size: 30px;
     }
@@ -447,4 +514,18 @@ span {
 }
 
 
-/*Burger menu*/
+
+@keyframes muestraMenu {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.menu.activado {
+    display: flex;
+    animation: muestraMenu 350ms ease-in-out both;
+}
+
+.menu.desactivado {
+    display: none;
+    animation: muestraMenu 350ms ease-in-out both;
+}
