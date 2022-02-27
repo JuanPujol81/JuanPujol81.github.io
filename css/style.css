@@ -366,14 +366,15 @@ span {
         flex-direction: column;
     }
 
-    .contain-contact img {
-        width: 0;
-        height: 0;
+    .contain-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .contain-contact{
-        justify-content: flex-start;
-        padding-left: 5em;
+    .contain-contact img {
+        width: 150px;
+        height: 150px;
     }
 
 
