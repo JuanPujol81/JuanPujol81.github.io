@@ -259,14 +259,14 @@ span {
     color: var(--letters-color);
 }
 
-.container-contact {
+.contain-contact {
     display: flex;
     padding: 0 3em 0 3em;
     margin: 0 auto;
     align-items: center;
 }
 
-.container-contact img {
+.contain-contact img {
     opacity: 0.2;
     width: 750px;
     height: 700px;
@@ -366,11 +366,12 @@ span {
         flex-direction: column;
     }
 
-    .container-contact img {
-        display: none;
+    .contain-contact img {
+        width: 0;
+        height: 0;
     }
 
-    .container-contact{
+    .contain-contact{
         justify-content: flex-start;
         padding-left: 5em;
     }
