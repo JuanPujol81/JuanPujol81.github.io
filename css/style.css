@@ -371,7 +371,8 @@ span {
     }
 
     .container-contact{
-        justify-content: center;
+        justify-content: flex-start;
+        padding-left: 5em;
     }
 
 
