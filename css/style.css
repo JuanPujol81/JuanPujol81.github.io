@@ -488,6 +488,13 @@ span {
     .social-media {
         width: 200px;
     }
+
+    .main img {
+        width: 100px;
+        height: 100px;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -500,10 +507,6 @@ span {
         font-size: 30px;
     }
 
-    .main img {
-        width: 100px;
-        height: 100px;
-    }
 }
 
 
